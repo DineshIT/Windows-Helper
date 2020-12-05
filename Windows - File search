@@ -1,0 +1,34 @@
+To find and get the absolute path of the device you can use the below set of commands.
+
+
+
+Start -> Powershell. Under the powershell you could able to use the commands.
+
+gci is the windows powershell management commands, to find the file, child items and its path from the one or more location. 
+
+gci -recurse -filter "<<keyname to search>>"
+
+gci -> Get-ChildItem
+recurse -> to search the keyword recursively till the depth of child foders.
+-filter -> option to filter the result based on keyword.
+
+
+Manual for the GCI would be like
+
+gci
+   [[-Filter] <string>]
+   -LiteralPath <string[]>
+   [-Include <string[]>]
+   [-Exclude <string[]>]
+   [-Recurse]
+   [-Depth <uint32>]
+   [-Force]
+   [-Name]
+   [-Attributes <FlagsExpression[FileAttributes]>]
+   [-FollowSymlink]
+   [-Directory]
+   [-File]
+   [-Hidden]
+   [-ReadOnly]
+   [-System]
+   [<CommonParameters>]
